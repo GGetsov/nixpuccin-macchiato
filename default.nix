@@ -7,7 +7,7 @@
         glib-compile-resources ${./gnome-shell/gnome-shell-theme.gresource.xml} --sourcedir=${./gnome-shell} --target=$out/share/gnome-shell/gnome-shell-theme.gresource
         '';
       });
-    });
+    # });
   });
   gtk = ./gtk;
 }
